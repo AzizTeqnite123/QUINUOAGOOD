@@ -67,7 +67,7 @@ img {
 }
 
 .mainBtn :is(a, button) {
-    padding: 17px 30px;
+    padding: 16px 30px;
     font-family: Open Sans;
     font-weight: 700;
     font-size: 16px;
@@ -77,11 +77,16 @@ img {
     border-radius: 100px;
     display: block;
     background: #FC7D47;
+    border: 1px solid #FC7D47;
     color: #FFFFFF;
     border: none;
     outline: none;
     cursor: pointer;
     width: 100%;
+    position: relative;
+    transition: all 1s cubic-bezier(0.23, 1, 0.32, 1);
+    overflow: hidden;
+    z-index: 1;
 }
 
 .mainBtn :is(a, button).whiteBtn {
@@ -100,7 +105,7 @@ img {
 /* MAIN BANNER */
 
 .mainBanner {
-    padding: 100px 0;
+    padding: 100px 0 110px;
     background: #FC7D47;
     -webkit-mask-image: url('../img/banner-mask.png');
     -webkit-mask-repeat: no-repeat;
@@ -973,7 +978,7 @@ body .swiper :is(.swiper-button-prev) svg {
 
 .quinioaGood::before {
     content: '';
-     height: 500px;
+    height: 500px;
     width: 100%;
     -webkit-mask-image: url(../img/quinoa-goodmask-layer.png);
     -webkit-mask-repeat: no-repeat;
@@ -985,7 +990,8 @@ body .swiper :is(.swiper-button-prev) svg {
     mask-position: top;
     position: absolute;
     top: 0;
-    left: 0; background-color: #F8F4ED;
+    left: 0;
+    background-color: #F8F4ED;
 }
 
 .quinioaGood::after {
@@ -1002,7 +1008,8 @@ body .swiper :is(.swiper-button-prev) svg {
     mask-position: bottom;
     position: absolute;
     bottom: 0;
-    left: 0; background-color: #F8F4ED;
+    left: 0;
+    background-color: #F8F4ED;
 }
 
 .quinioaGoodRow {
@@ -1030,6 +1037,7 @@ body .swiper :is(.swiper-button-prev) svg {
     width: 100%;
     object-fit: contain;
     object-position: bottom;
+    margin-bottom: 5px;
 }
 
 .quionaIconBox {
