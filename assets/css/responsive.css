@@ -771,10 +771,6 @@
         margin-bottom: 5px;
     }
 
-    .rating_star {
-        --star-size: 18px;
-    }
-
     .reviBoxBottom p {
         font-size: 13px;
         line-height: 18px;
@@ -863,7 +859,9 @@
 
     .footerBtmText {
         margin-top: 15px;
-    }.footerBtmText p {
+    }
+
+    .footerBtmText p {
         font-size: 12px;
     }
 }
