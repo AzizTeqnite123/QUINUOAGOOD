@@ -41,7 +41,7 @@ document.addEventListener("DOMContentLoaded", function () {
                         spaceBetween: 10
                     },
                     576: {
-                        slidesPerView: 2.8,
+                        slidesPerView: 2.3,
                         spaceBetween: 15
                     },
                     769: {
@@ -94,7 +94,7 @@ document.addEventListener("DOMContentLoaded", function () {
                         spaceBetween: 15
                     },
                     769: {
-                        slidesPerView: 2,
+                        slidesPerView: 2.2,
                         spaceBetween: 20,
                     },
                     1025: {

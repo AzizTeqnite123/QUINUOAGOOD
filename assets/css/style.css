@@ -87,6 +87,7 @@ img {
     transition: all 1s cubic-bezier(0.23, 1, 0.32, 1);
     overflow: hidden;
     z-index: 1;
+    text-align: center;
 }
 
 .mainBtn :is(a, button).whiteBtn {
@@ -130,6 +131,7 @@ img {
     font-size: 22px;
     line-height: 30px;
     letter-spacing: 0px;
+    margin-top: 20px;
 }
 
 .mainBannerContent * {
@@ -606,12 +608,12 @@ body .swiper :is(.swiper-button-prev) svg {
     margin-right: auto;
 }
 
-.laping__logos::after {
+/* .laping__logos::after {
     content: "";
     position: absolute;
     top: 0;
     left: 0;
-    width: 200px;
+    width: 30px;
     height: 100%;
     background: linear-gradient(90deg, #2B5E28 0%, rgba(255, 255, 255, 0) 100%);
     pointer-events: none;
@@ -623,12 +625,12 @@ body .swiper :is(.swiper-button-prev) svg {
     position: absolute;
     top: 0;
     right: 0;
-    width: 200px;
+    width: 30px;
     height: 100%;
     pointer-events: none;
     z-index: 1;
     background: linear-gradient(270deg, #2B5E28 0%, rgba(250, 251, 244, 0) 100%);
-}
+} */
 
 .logo_rows {
     display: flex;
@@ -802,7 +804,9 @@ body .swiper :is(.swiper-button-prev) svg {
 }
 
 .revBxAthIMGNameWrap img {
-    min-width: 45px;
+    min-width: 46px;
+    width: 46px;
+    height: 46px;
     object-fit: contain;
 }
 
@@ -853,6 +857,7 @@ body .swiper :is(.swiper-button-prev) svg {
     height: 100%;
     width: 100%;
     object-fit: contain;
+    display: block;
 }
 
 .footerLogoFormWrapper p {
@@ -907,7 +912,7 @@ body .swiper :is(.swiper-button-prev) svg {
 
 .footerSocialLinks li a {
     width: 20px;
-    transition: all ease .3s;
+    transition: all ease .3s;display: block;
 }
 
 .footerSocialLinks li a:hover {
@@ -978,7 +983,7 @@ body .swiper :is(.swiper-button-prev) svg {
 
 .quinioaGood::before {
     content: '';
-    height: 500px;
+    height: 60%;
     width: 100%;
     -webkit-mask-image: url(../img/quinoa-goodmask-layer.png);
     -webkit-mask-repeat: no-repeat;
@@ -996,7 +1001,7 @@ body .swiper :is(.swiper-button-prev) svg {
 
 .quinioaGood::after {
     content: '';
-    height: 500px;
+    height: 60%;
     width: 100%;
     -webkit-mask-image: url(../img/quinoa-goodmask-layer.png);
     -webkit-mask-repeat: no-repeat;
@@ -1014,7 +1019,7 @@ body .swiper :is(.swiper-button-prev) svg {
 
 .quinioaGoodRow {
     display: grid;
-    grid-template-columns: repeat(2, 1fr);
+    grid-template-columns: 1fr 1.2fr;
     gap: 30px;
     align-items: end;
     position: relative;
@@ -1037,7 +1042,6 @@ body .swiper :is(.swiper-button-prev) svg {
     width: 100%;
     object-fit: contain;
     object-position: bottom;
-    margin-bottom: 5px;
 }
 
 .quionaIconBox {
@@ -1067,11 +1071,11 @@ body .swiper :is(.swiper-button-prev) svg {
 }
 
 .quinioaGoodIconBoxCont p {
-    margin-top: 5px;
+    margin-top: 10px;
     font-family: Open Sans;
     font-weight: 400;
     font-size: 16px;
-    line-height: 1.2;
+    line-height: 22px;
     letter-spacing: 0px;
 }
 

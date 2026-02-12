@@ -1,0 +1,869 @@
+@media (max-width : 1024px) {
+    .mainBanner {
+        padding: 80px 0;
+    }
+
+    .mainBannerImg {
+        max-width: 400px;
+    }
+
+    .headingH1 {
+        font-size: 44px;
+        line-height: 53px;
+    }
+
+    .mainBannerContent p {
+        font-size: 20px;
+        line-height: 27px;
+        margin-top: 15px;
+    }
+
+    .mainBtn :is(a, button) {
+        font-size: 15px;
+        line-height: 15px;
+        padding: 13px 26px;
+    }
+
+    .mainBtn {
+        margin-top: 50px;
+    }
+
+    .qualityIconBox,
+    .imageWithContent,
+    .catgBoxMain,
+    .stepBoxMain,
+    .reviewBoxMain {
+        margin: 80px 0;
+    }
+
+    .qualityIconBoxRow {
+        gap: 20px;
+    }
+
+    .qualityIconBoxContent p {
+        font-size: 15px;
+        line-height: 20px;
+    }
+
+    .qualityIconBoxContent h3 {
+        font-size: 18px;
+        line-height: 20px;
+    }
+
+    .qualityIconBoxImg {
+        width: 80px;
+        height: 65px;
+    }
+
+    .productCardMain {
+        padding: 80px 0;
+    }
+
+    .headingHldrSite {
+        margin-bottom: 50px;
+    }
+
+    .headingHldrSite p {
+        font-size: 16px;
+        line-height: 21px;
+        margin-top: 15px;
+    }
+
+    .headingH2 {
+        font-size: 34px;
+        line-height: 40px;
+    }
+
+    .prodCardMedia {
+        min-height: 350px;
+    }
+
+    .prodCardMedia img[src$=".png"],
+    .prodCardMedia img[src*=".png?"],
+    .prodCardMedia img[src$=".PNG"] {
+        width: 90px;
+    }
+
+    .prodCardHeading h3 {
+        font-size: 18px;
+    }
+
+    .prodCardPrice .price {
+        font-size: 18px;
+    }
+
+    .imageWithContentRow {
+        gap: 20px;
+    }
+
+    .imageWithContentListIcon {
+        gap: 15px;
+    }
+
+    .imageWithContentListIconHldr {
+        margin-top: 20px;
+        gap: 20px;
+    }
+
+    .imageWithContentListIconCnt h3 {
+        font-size: 18px;
+    }
+
+    .imageWithContentListIconImg {
+        height: 44px;
+        width: 44px;
+        padding: 9px;
+    }
+
+    .quinioaGoodContent {
+        padding: 80px 0;
+    }
+
+    .quinioaGoodRow {
+        gap: 20px;
+    }
+
+    .quionaIconBox {
+        gap: 15px;
+        margin-top: 30px;
+    }
+
+    .quinioaGoodIconBoxImg {
+        min-width: 30px;
+        width: 30px;
+        height: 30px;
+    }
+
+    .quinioaGoodIconBoxCont h3 {
+        font-size: 16px;
+    }
+
+    .quinioaGoodIconBoxCont p {
+        font-size: 15px;
+        line-height: 20px;
+    }
+
+    .catgBoxMainRow {
+        gap: 20px;
+    }
+
+    .categoryBoxHeading h3 {
+        font-size: 22px;
+        line-height: 25px
+    }
+
+    .catgeoryBoxContent {
+        margin-top: 20px;
+    }
+
+    .logoSliderMain {
+        padding: 100px 0 130px;
+    }
+
+    .logoSliderContent {
+        max-width: 585px;
+    }
+
+    .logoSliderContent h4 {
+        font-size: 18px;
+        margin-top: 15px;
+    }
+
+    .logoSliderContent p {
+        font-size: 16px;
+        line-height: 22px;
+        margin-top: 15px;
+    }
+
+    .logo_rows {
+        margin-top: 20px;
+        gap: 20px;
+    }
+
+    .aboutUsMain {
+        padding: 100px 0 80px;
+    }
+
+    .aboutUsMainContent p {
+        font-size: 15px;
+        line-height: 23px;
+        margin-top: 15px;
+    }
+
+    .stepBoxMainRow {
+        gap: 20px;
+    }
+
+    .stepBoxWrapper {
+        gap: 20px;
+    }
+
+    .stepBoxContent h3 {
+        font-size: 22px;
+        line-height: 25px;
+    }
+
+    .stepBoxContent p {
+        font-size: 16px;
+        line-height: 21px;
+    }
+
+    .reviewBoxWrapper {
+        padding: 30px 20px;
+        gap: 15px;
+    }
+
+    .reviBoxTop h3 {
+        font-size: 24px;
+        margin-bottom: 5px;
+    }
+
+    .reviBoxBottom p {
+        font-size: 15px;
+        line-height: 20px;
+    }
+
+    .revBxAthIMGNameWrap img {
+        min-width: 40px;
+        width: 40px;
+        height: 40px;
+    }
+
+    .revBxAthIMGNameWrap span {
+        font-size: 15px;
+    }
+
+    .footerMainWrapper {
+        padding: 80px 0 20px;
+    }
+
+    .footerDeatsWrapperRow {
+        margin-top: 50px;
+        grid-template-columns: repeat(4, 1fr);
+        padding: 40px;
+        gap: 40px 10px;
+    }
+
+    .footerLogoFormWrapper {
+        grid-column: span 4;
+        max-width: 400px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .footerLogo {
+        width: 100px;
+        margin: 0 auto;
+    }
+
+    .footerLogoFormWrapper p {
+        margin-top: 15px;
+        font-size: 15px;
+        line-height: 20px;
+        text-align: center;
+    }
+
+    .footerForm {
+        max-width: 100%;
+    }
+
+    .footerSocialLinks {
+        justify-content: center;
+    }
+
+    .footerLinksHldr ul {
+        margin-top: 20px;
+        gap: 15px;
+    }
+
+    .footerLinksHldr h3 {
+        font-size: 18px;
+    }
+
+    .footerLinksHldr ul li a {
+        font-size: 15px;
+    }
+
+    .mainBannerRow {
+        gap: 20px;
+    }
+
+    .imageWithContentContent p {
+        margin-top: 15px;
+        font-size: 15px;
+        line-height: 20px;
+    }
+}
+
+@media (max-width : 768px) {
+    .mainBanner {
+        padding: 60px 0;
+    }
+
+    .mainBannerRow {
+        grid-template-columns: repeat(1, 1fr);
+        gap: 30px;
+    }
+
+    .headingH1 {
+        font-size: 37px;
+        line-height: 40px;
+    }
+
+    .mainBannerImg {
+        max-width: 350px;
+        margin: 0 auto;
+    }
+
+    .mainBannerContent {
+        max-width: 500px;
+        margin: 0 auto;
+        text-align: center;
+    }
+
+    .mainBannerContent p {
+        font-size: 18px;
+        line-height: 24px;
+        margin-top: 15px;
+    }
+
+    .mainBtn {
+        margin-top: 40px;
+    }
+
+    .mainBannerContent .mainBtn {
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .mainBtn :is(a, button) {
+        font-size: 14px;
+        line-height: 14px;
+        padding: 12px 24px;
+    }
+
+    .qualityIconBox,
+    .imageWithContent,
+    .catgBoxMain,
+    .stepBoxMain,
+    .reviewBoxMain {
+        margin: 60px 0;
+    }
+
+    .qualityIconBoxRow {
+        gap: 30px 15px;
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .qualityIconBoxImg {
+        width: 60px;
+        height: 50px;
+    }
+
+    .qualityIconBoxImg {
+        width: 60px;
+        height: 50px;
+    }
+
+    .qualityIconBoxContent p {
+        font-size: 14px;
+        line-height: 19px;
+    }
+
+    .productCardMain {
+        padding: 60px 0;
+    }
+
+    .headingHldrSite p {
+        font-size: 15px;
+        line-height: 20px;
+        margin-top: 15px;
+    }
+
+    .headingHldrSite {
+        margin-bottom: 40px;
+    }
+
+    .headingH2 {
+        font-size: 29px;
+        line-height: 32px;
+    }
+
+    .prodCardMedia {
+        min-height: 300px;
+    }
+
+    .prodCardMedia img[src$=".png"],
+    .prodCardMedia img[src*=".png?"],
+    .prodCardMedia img[src$=".PNG"] {
+        width: 80px;
+    }
+
+    .imageWithContentRow {
+        gap: 30px;
+        grid-template-columns: 1fr;
+    }
+
+    .quinioaGoodRow {
+        gap: 30px;
+        grid-template-columns: 1fr;
+    }
+
+    .quinioaGoodContent {
+        padding: 60px 0 0;
+    }
+
+    .quinioaGoodimage {
+        max-width: 500px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .quionaIconBox {
+        gap: 15px;
+        margin-top: 25px;
+        max-width: 500px;
+    }
+
+    .catgBoxMainRow {
+        grid-template-columns: repeat(2, 1fr);
+        gap: 30px 15px;
+    }
+
+    .categoryBoxHeading h3 {
+        font-size: 20px;
+        line-height: 22px;
+    }
+
+    .logoSliderMain {
+        padding: 80px 0 110px;
+    }
+
+    .aboutUsMain {
+        padding: 80px 0 60px;
+    }
+
+    .stepBoxMainRow {
+        grid-template-columns: repeat(2, 1fr);
+        gap: 30px 15px;
+    }
+
+    .stepBoxContent h3 {
+        font-size: 20px;
+        line-height: 22px;
+    }
+
+    .reviewBoxWrapper {
+        padding: 25px 15px;
+        gap: 15px;
+    }
+
+    .reviewBoxWrapper {
+        padding: 25px 15px;
+        gap: 15px;
+    }
+
+    .reviBoxBottom p {
+        font-size: 14px;
+        line-height: 19px;
+    }
+
+    .revBxAthIMGNameWrap span {
+        font-size: 14px;
+        line-height: 19px;
+    }
+
+    .imageWithContentContent p {
+        margin-top: 15px;
+        font-size: 14px;
+        line-height: 19px;
+    }
+
+    .footerMainWrapper {
+        padding: 60px 0 20px;
+    }
+
+    .footerDeatsWrapperRow {
+        margin-top: 40px;
+        grid-template-columns: repeat(4, 1fr);
+        padding: 30px;
+        gap: 30px 10px;
+    }
+
+    .footerLogoFormWrapper p {
+        margin-top: 15px;
+        font-size: 14px;
+        line-height: 19px;
+    }
+
+    .quinioaGoodIconBoxCont p {
+        font-size: 14px;
+        line-height: 19px;
+    }
+
+    .aboutUsMainContent .headingH2 {
+        margin-bottom: 0;
+    }
+
+    .aboutUsMainContent p {
+        font-size: 14px;
+        line-height: 20px;
+    }
+
+    .footerLinksHldr ul li a {
+        font-size: 14px;
+    }
+}
+
+@media (max-width : 575px) {
+    .mainBanner {
+        padding: 40px 0 60px;
+    }
+
+    .mainBannerImg {
+        max-width: 280px;
+    }
+
+    .headingH1 {
+        font-size: 30px;
+        line-height: 32px;
+    }
+
+    .mainBannerContent p {
+        font-size: 16px;
+        line-height: 21px;
+        margin-top: 10px;
+    }
+
+    .mainBannerContent p {
+        font-size: 16px;
+        line-height: 21px;
+        margin-top: 10px;
+    }
+
+    .mainBtn :is(a, button) {
+        font-size: 13px;
+        line-height: 13px;
+        padding: 10px 20px;
+    }
+
+    .qualityIconBox,
+    .imageWithContent,
+    .catgBoxMain,
+    .stepBoxMain,
+    .reviewBoxMain {
+        margin: 40px 0;
+    }
+
+    .qualityIconBoxRow {
+        gap: 20px;
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    .qualityIconBoxImg {
+        width: 50px;
+        height: 40px;
+    }
+
+    .qualityIconBoxContent h3 {
+        font-size: 16px;
+        line-height: 18px;
+    }
+
+    .qualityIconBoxContent p {
+        font-size: 13px;
+        line-height: 18px;
+    }
+
+    .productCardMain {
+        padding: 40px 0;
+    }
+
+    .headingH2 {
+        font-size: 24px;
+        line-height: 27px;
+    }
+
+    .headingHldrSite p {
+        font-size: 14px;
+        line-height: 19px;
+        margin-top: 10px;
+    }
+
+    .headingHldrSite {
+        margin-bottom: 30px;
+    }
+
+    .prodCardMedia {
+        min-height: 270px;
+        border-radius: 15px;
+    }
+
+    body .swiper :is(.swiper-button-next) {
+        right: 10px;
+        height: 35px;
+        width: 35px;
+    }
+
+
+    body .swiper :is(.swiper-button-prev) {
+        left: 10px;
+        height: 35px;
+        width: 35px;
+    }
+
+    .prodCardMedia img[src$=".png"],
+    .prodCardMedia img[src*=".png?"],
+    .prodCardMedia img[src$=".PNG"] {
+        width: 70px;
+    }
+
+    .prodCardMedia img[src$=".png"],
+    .prodCardMedia img[src*=".png?"],
+    .prodCardMedia img[src$=".PNG"] {
+        width: 70px;
+    }
+
+    .prodCardHeading h3 {
+        font-size: 16px;
+    }
+
+    .prodCardPrice {
+        margin-top: 5px;
+    }
+
+    .prodCardPrice {
+        margin-top: 5px;
+    }
+
+    .prodCardPrice .price em {
+        font-size: 13px;
+    }
+
+    .mainBtn {
+        margin-top: 30px;
+    }
+
+    .imageWithContentRow {
+        gap: 20px;
+    }
+
+    .imageWithContentListIconHldr {
+        margin-top: 15px;
+        gap: 15px;
+    }
+
+    .imageWithContentListIconCnt h3 {
+        font-size: 16px;
+    }
+
+    .imageWithContentListIcon {
+        gap: 10px;
+    }
+
+    .imageWithContentListIconImg {
+        height: 40px;
+        width: 40px;
+        padding: 9px;
+    }
+
+    .quinioaGoodContent {
+        padding: 50px 0 0;
+    }
+
+    .quionaIconBox {
+        gap: 10px;
+        margin-top: 15px;
+        max-width: 500px;
+    }
+
+    .quinioaGoodIconBoxImg {
+        min-width: 25px;
+        width: 25px;
+        height: 25px;
+    }
+
+    .quinioaGoodIconBoxCont h3 {
+        font-size: 15px;
+    }
+
+    .quinioaGoodIconBoxCont p {
+        font-size: 13px;
+        line-height: 18px;
+    }
+
+    .quinioaGoodRow {
+        gap: 20px;
+    }
+
+    .catgBoxMainRow {
+        grid-template-columns: repeat(1, 1fr);
+        gap: 15px;
+    }
+
+    .catgeoryBoxContent {
+        margin-top: 15px;
+    }
+
+    .categoryBoxHeading h3 {
+        font-size: 18px;
+        line-height: 20px;
+    }
+
+    .logoSliderMain {
+        padding: 55px 0 90px;
+    }
+
+    .logoSliderContent h4 {
+        font-size: 16px;
+        margin-top: 10px;
+    }
+
+    .logoSliderContent p {
+        font-size: 14px;
+        line-height: 19px;
+        margin-top: 10px;
+    }
+
+    .logo_rows {
+        gap: 10px;
+        margin-top: 10px;
+    }
+
+    .aboutUsMain {
+        padding: 60px 0 40px;
+    }
+
+    .aboutUsMainContent p {
+        font-size: 13px;
+        line-height: 19px;
+        margin-top: 10px;
+    }
+
+    .stepBoxMainRow {
+        grid-template-columns: repeat(1, 1fr);
+        gap: 15px;
+    }
+
+    .stepBoxWrapper {
+        gap: 15px;
+    }
+
+    .stepBoxContent h3 {
+        font-size: 18px;
+        line-height: 20px;
+    }
+
+    .stepBoxContent p {
+        font-size: 14px;
+        line-height: 19px;
+        margin-top: 5px;
+    }
+
+    .reviewBoxWrapper {
+        padding: 20px 15px;
+        gap: 10px;
+        border-radius: 15px;
+    }
+
+    .reviBoxTop h3 {
+        font-size: 20px;
+        margin-bottom: 5px;
+    }
+
+    .rating_star {
+        --star-size: 18px;
+    }
+
+    .reviBoxBottom p {
+        font-size: 13px;
+        line-height: 18px;
+    }
+
+    .revBxAthIMGNameWrap span {
+        font-size: 13px;
+    }
+
+    .revBxAthIMGNameWrap {
+        margin-top: 15px;
+        gap: 10px;
+    }
+
+    .revBxAthIMGNameWrap img {
+        min-width: 35px;
+        width: 35px;
+        height: 35px;
+    }
+
+    .imageWithContentContent p {
+        font-size: 13px;
+        line-height: 18px;
+        margin-top: 10px;
+    }
+
+    .footerMainWrapper {
+        padding: 40px 0 20px;
+    }
+
+    .footerDeatsWrapperRow {
+        margin-top: 30px;
+        grid-template-columns: repeat(1, 1fr);
+        padding: 20px;
+        gap: 20px 10px;
+        border-radius: 15px;
+    }
+
+    .footerLogo {
+        width: 80px;
+    }
+
+    .footerLogoFormWrapper p {
+        margin-top: 10px;
+        font-size: 13px;
+        line-height: 18px;
+    }
+
+    .footerForm {
+        margin-top: 20px;
+    }
+
+    .footerLogoFormWrapper {
+        grid-column: span 1;
+        margin-bottom: 10px;
+    }
+
+    .footerSocialLinks {
+        gap: 15px;
+        margin-top: 15px;
+    }
+
+    .footerSocialLinks li a {
+        width: 17px;
+    }
+
+    .footerLinksHldr {
+        max-width: fit-content;
+        margin-left: auto;
+        margin-right: auto;
+        text-align: center;
+    }
+
+    .footerLinksHldr h3 {
+        font-size: 17px;
+    }
+
+    .footerLinksHldr ul {
+        margin-top: 15px;
+        gap: 10px;
+    }
+
+    .footerLinksHldr ul li a {
+        font-size: 13px;
+    }
+
+    .footerBtmText {
+        margin-top: 15px;
+    }.footerBtmText p {
+        font-size: 12px;
+    }
+}
